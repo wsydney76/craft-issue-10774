@@ -1,55 +1,16 @@
-dateApplied: '2022-03-23 09:14:52'
+dateApplied: '2022-03-23 02:17:00'
 changes:
-  -
-    added:
-      fieldGroups.e2900beb-7302-4b94-aae5-721985c45ab7.name: Common
-  -
-    added:
-      siteGroups.4ff0b93e-899f-459d-b8f9-8da9c87bbde0.name: Test1
-  -
-    added:
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.baseUrl: $PRIMARY_SITE_URL
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.handle: default
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.hasUrls: true
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.language: en-US
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.name: Test1
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.primary: true
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.siteGroup: 4ff0b93e-899f-459d-b8f9-8da9c87bbde0
-      sites.0ce07eb2-b257-4e4d-a6db-73e8a2de9726.sortOrder: 1
-  -
-    added:
-      dateModified: 1648026891
-  -
-    added:
-      email.fromEmail: admin@test1.local
-      email.fromName: Test1
-      email.transportType: craft\mail\transportadapters\Sendmail
-  -
-    added:
-      system.edition: solo
-      system.name: Test1
-      system.live: true
-      system.schemaVersion: 3.7.33
-      system.timeZone: America/Los_Angeles
-  -
-    added:
-      users.requireEmailVerification: true
-      users.allowPublicRegistration: false
-      users.defaultGroup: null
-      users.photoVolumeUid: null
-      users.photoSubpath: null
   -
     message: 'Update timestamp for project config'
     changed:
       dateModified:
-        from: 1648026891
-        to: 1648026892
+        from: 1648026892
+        to: 1648027020
   -
     added:
-      meta.__names__.e2900beb-7302-4b94-aae5-721985c45ab7: Common
-  -
-    added:
-      meta.__names__.4ff0b93e-899f-459d-b8f9-8da9c87bbde0: Test1
-  -
-    added:
-      meta.__names__.0ce07eb2-b257-4e4d-a6db-73e8a2de9726: Test1
+      system.retryDuration: null
+    message: 'Update system settings.'
+    changed:
+      system.timeZone:
+        from: America/Los_Angeles
+        to: Europe/Berlin
