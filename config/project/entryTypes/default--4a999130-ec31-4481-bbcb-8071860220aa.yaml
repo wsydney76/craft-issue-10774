@@ -27,7 +27,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 61c5f4da-dc1f-4267-b1ac-ec8edf00d2ba # Subtitle
+            fieldUid: 61c5f4da-dc1f-4267-b1ac-ec8edf00d2ba
             instructions: null
             label: null
             required: false
@@ -40,7 +40,7 @@ fieldLayouts:
 handle: default
 hasTitleField: true
 name: Default
-section: 5c9808eb-172a-43c0-8843-dfb056e3236a # Page
+section: 5c9808eb-172a-43c0-8843-dfb056e3236a
 sortOrder: 1
 titleFormat: null
 titleTranslationKeyFormat: null

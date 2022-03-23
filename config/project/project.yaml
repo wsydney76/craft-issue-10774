@@ -1,32 +1,16 @@
-dateModified: 1648027337
-elementSources:
-  craft\elements\Entry:
-    -
-      key: '*'
-      type: native
-    -
-      heading: Heading
-      type: heading
-    -
-      key: 'section:5c9808eb-172a-43c0-8843-dfb056e3236a' # Page
-      tableAttributes:
-        - drafts
-        - 'field:61c5f4da-dc1f-4267-b1ac-ec8edf00d2ba' # Subtitle
-        - postDate
-        - link
-      type: native
+dateModified: 1648028078
 email:
   fromEmail: admin@test1.local
   fromName: Test1
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
-    0ce07eb2-b257-4e4d-a6db-73e8a2de9726: Test1 # Test1
-    4a999130-ec31-4481-bbcb-8071860220aa: Default # Default
-    4ff0b93e-899f-459d-b8f9-8da9c87bbde0: Test1 # Test1
-    5c9808eb-172a-43c0-8843-dfb056e3236a: Page # Page
-    61c5f4da-dc1f-4267-b1ac-ec8edf00d2ba: Subtitle # Subtitle
-    e2900beb-7302-4b94-aae5-721985c45ab7: Common # Common
+    0ce07eb2-b257-4e4d-a6db-73e8a2de9726: Test1
+    4a999130-ec31-4481-bbcb-8071860220aa: Default
+    4ff0b93e-899f-459d-b8f9-8da9c87bbde0: Test1
+    5c9808eb-172a-43c0-8843-dfb056e3236a: Page
+    61c5f4da-dc1f-4267-b1ac-ec8edf00d2ba: Subtitle
+    e2900beb-7302-4b94-aae5-721985c45ab7: Common
 system:
   edition: solo
   live: true

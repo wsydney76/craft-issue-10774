@@ -4,7 +4,7 @@ handle: page
 name: Page
 propagationMethod: all
 siteSettings:
-  0ce07eb2-b257-4e4d-a6db-73e8a2de9726: # Test1
+  0ce07eb2-b257-4e4d-a6db-73e8a2de9726:
     enabledByDefault: true
     hasUrls: true
     template: page/_entry
