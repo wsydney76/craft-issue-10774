@@ -1,0 +1,19 @@
+columnSuffix: dhznaisy
+contentColumnType: string(240)
+fieldGroup: e2900beb-7302-4b94-aae5-721985c45ab7 # Common
+handle: subtitle
+instructions: ''
+name: Subtitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 60
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

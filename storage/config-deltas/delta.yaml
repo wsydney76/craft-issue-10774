@@ -1,0 +1,34 @@
+dateApplied: '2022-03-23 10:22:19'
+changes:
+  -
+    message: 'Update timestamp for project config'
+    changed:
+      dateModified:
+        from: 1648027068
+        to: 1648027337
+  -
+    added:
+      users.deactivateByDefault: false
+  -
+    added:
+      elementSources.craft\elements\Entry.0.key: '*'
+      elementSources.craft\elements\Entry.0.type: native
+      elementSources.craft\elements\Entry.1.heading: Heading
+      elementSources.craft\elements\Entry.1.type: heading
+      elementSources.craft\elements\Entry.2.key: 'section:5c9808eb-172a-43c0-8843-dfb056e3236a'
+      elementSources.craft\elements\Entry.2.tableAttributes.0: drafts
+      elementSources.craft\elements\Entry.2.tableAttributes.1: 'field:61c5f4da-dc1f-4267-b1ac-ec8edf00d2ba'
+      elementSources.craft\elements\Entry.2.tableAttributes.2: postDate
+      elementSources.craft\elements\Entry.2.tableAttributes.3: link
+      elementSources.craft\elements\Entry.2.type: native
+  -
+    changed:
+      entryTypes.4a999130-ec31-4481-bbcb-8071860220aa.fieldLayouts.1bfa38a7-dc13-4e5c-80c5-d82cf8d313cb.tabs.0.elements.0.type:
+        from: craft\fieldlayoutelements\EntryTitleField
+        to: craft\fieldlayoutelements\entries\EntryTitleField
+  -
+    message: 'Update Craft schema version'
+    changed:
+      system.schemaVersion:
+        from: 3.7.33
+        to: 4.0.0.7
